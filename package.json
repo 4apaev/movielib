@@ -1,0 +1,21 @@
+{
+  "name": "movielib",
+  "version": "1.0.0",
+  "description": "movie library app",
+  "author": {
+    "name": "Michael Miretski",
+    "email": "4apaev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:4apaev/movielib.git"
+  },
+  "scripts": {
+    "build" : "browserify -d main.js -o bundle.js",
+    "start" : "open index.html"
+  },
+  "devDependencies": {
+    "browserify": "latest"
+  }
+
+}

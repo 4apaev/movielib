@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>MOVIELIB</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script> this.log = console.log.bind(console) </script>
+    <script src="bundle.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>movie lib</h1>
+      <label for=search><input type=search id=search list=movies placeholder="search by movie title"></label>
+      <datalist id="movies"><option value="Cowboy Bebop"></datalist>
+    </header>
+
+    <main>
+      <nav>
+        <button id=prev>❮</button>
+        <button id=next>❯</button>
+      </nav>
+      <ul id=results></ul>
+    </main>
+
+  </body>
+
+</html>
+
+<!--
+✓ ✔
+❬❭ ❮❯ ❰❱
+▲▼◀▶
+✕ ⨉ 𐄂 × ⨯
+✕ ✖ ✗ ✘ ✚
+-->
