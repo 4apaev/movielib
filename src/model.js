@@ -18,7 +18,7 @@ module.exports = {
     if ('string'===typeof search)
       this.search = search
 
-    return fetch(`${ this[ URL ] }?s=${ this.search }&page=${ this.page }`)
+    return fetch(`${ this[ URL ] }?s=${ encodeURIComponent(this.search) }&page=${ this.page }`)
               .then(x => x.json())
               .then(x => {
                 this.total = +x.totalResults
