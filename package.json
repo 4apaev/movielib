@@ -15,7 +15,8 @@
     "start" : "node index.es5.js"
   },
   "devDependencies": {
-    "browserify": "latest"
+    "browserify": "latest",
+    "babel-cli": "latest",
+    "babel-preset-es2015": "latest"
   }
-
 }
