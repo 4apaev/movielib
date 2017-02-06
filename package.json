@@ -11,8 +11,8 @@
     "url": "git@github.com:4apaev/movielib.git"
   },
   "scripts": {
-    "build" : "browserify -d main.js -o bundle.js",
-    "start" : "node index"
+    "build" : "browserify -d main.js -o main.bundle.js&& babel --presets es2015 main.bundle.js -o main.bundle.es5.js && babel --presets es2015 index.js -o index.es5.js",
+    "start" : "node index.es5.js"
   },
   "devDependencies": {
     "browserify": "latest"
