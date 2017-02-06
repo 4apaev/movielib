@@ -6,7 +6,8 @@ const current = Symbol('current');
 const isInt = x => x === (0 | x);
 
 module.exports = {
-  [ URL ]: 'http://www.omdbapi.com/',
+  // [ URL ]: 'http://www.omdbapi.com/',
+  [ URL ]: 'http://localhost:3000/',
   [ total ]: 0,
   [ limit ]: 10,
   [ current ]: 0,
