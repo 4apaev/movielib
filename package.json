@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build" : "browserify -d main.js -o bundle.js",
-    "start" : "open index.html"
+    "start" : "node index"
   },
   "devDependencies": {
     "browserify": "latest"

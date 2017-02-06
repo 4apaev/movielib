@@ -1,11 +1,12 @@
-guess artist
-============
+Movie Lib
+=========
 
-##instal
-npm i
+* instal
+  npm i
 
-##build
-npm run build
+* build
+  npm run build
 
-##start
-open index.html
+* start
+  - npm start
+  - open in browser http://localhost:3000/
